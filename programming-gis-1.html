@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming for Geospatial I - Reflection</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">← Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <main class="container" style="max-width: 800px; margin: 40px auto; padding: 0 20px; font-family: sans-serif; line-height: 1.6;">
+        <h1>Programming for Geospatial I - Practical Reflection</h1>
+        <article class="reflection-content">
+            <p>
+                In this task, I learned how to create buffers in ArcGIS Pro, first manually and then with arcpy code. I started with the Buffer tool in the Geoprocessing panel, where I chose the road layer, set the distance to 100 meters, and ran it. I also learned that the layer should use a projected coordinate system, because a layer in degrees gives a wrong buffer.
+            </p>
+            <p>
+                While doing this, I faced many errors, and solving them was difficult, but I managed to fix them and that helped me understand the tool better. Then I moved to arcpy, where I stored the road layer and the distance in separate variables and ran the Buffer function in the Python Window. This showed me that code can do the same work as the tool, and that I can change only the distance to get 100, 200 and 500 meter buffers.
+            </p>
+            <p>
+                I also learned that a loop can create these buffers for roads, buildings and waterbodies together, which saves a lot of time. Overall, this task improved my confidence in both GIS tools and basic Python, and showed me how buffers help in analysing the area around features.
+            </p>
+        </article>
+    </main>
+
+    <footer style="margin-top: 50px; text-align: center; color: #666;">
+        <p>&copy; Student Portfolio</p>
+    </footer>
+</body>
+</html>
